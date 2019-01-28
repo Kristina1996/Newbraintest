@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="tests"
+        android:icon="@drawable/tests"
+        app:showAsAction="always"
+        android:id="@+id/menu_tests"/>
+
+    <item android:title="menu"
+        android:icon="@drawable/menu"
+        app:showAsAction="always"
+        android:id="@+id/menu_menu"/>
+
+    <item android:title="logout"
+        android:icon="@drawable/logout"
+        app:showAsAction="always"
+        android:id="@+id/menu_signout"/>
+</menu>
